@@ -1,0 +1,343 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #232f3e;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .hero {
+    background-image: url('hero.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #ffa500;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #ff8c00;
+  }
+  
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  
+  .product {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .product img {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .product h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .product p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background-color: #232f3e;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+  footer {
+    background-color: #232f3e;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  footer p {
+    margin: 0;
+    text-align: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .footer-container a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .footer-container a:hover {
+    color: #ffa500;
+  }
+
+  .search-form {
+    position: relative;
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  
+  .search-form input[type="text"] {
+    width: 100%;
+    padding: 14px 16px;
+    border-radius: 30px;
+    border: none;
+    background-color: #f2f2f2;
+    font-size: 16px;
+  }
+  
+  .search-form button[type="submit"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 14px 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-form button[type="submit"]:hover {
+    background-color: #ff8c00;
+  }
+  
+  .search-form i {
+    font-size: 20px;
+    vertical-align: middle;
+  } 
+
+  .search-form button[type="submit"] i {
+    font-size: 20px;
+    color: #fff;
+    background-image: url('D:\Chat GPT\HTML\Pictures\png-clipart-computer-icons-magnifying-glass-amazon-com-lupe-icon-desktop-wallpaper-amazoncom.png');
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-left: 5px;
+  }
+  
+  .cart-button {
+    display: inline-flex;
+    align-items: center;
+    background-color: #ffa500;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    position: relative;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  .cart-button:hover {
+    background-color: #ff8c00;
+  }
+  
+  .cart-button img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+  }
+  
+  .cart-button span {
+    margin-left: 5px;
+  }
+  
+  .cart-button {
+    margin-left: auto;
+    }
+
+    .btn-home {
+      display: inline-block;
+      background-color: #ff6600;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+    
+    .btn-home:hover {
+      background-color: #007acc;
+    }
+
+    .btn-shop {
+      display: inline-block;
+      background-color: #ff6600;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+    
+    .btn-shop:hover {
+      background-color: #007acc;
+    }
+
+    .btn-about {
+      display: inline-block;
+      background-color: #ff6600;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+    
+    .btn-about:hover {
+      background-color: #007acc;
+    }
+
+    .btn-contact {
+      display: inline-block;
+      background-color: #ff6600;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+    
+    .btn-contact:hover {
+      background-color: #007acc;
+    }
+
+    .btn-login {
+      display: inline-block;
+      background-color: #ff6600;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+    
+    .btn-login:hover {
+      background-color: #007acc;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+

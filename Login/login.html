@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="login-box">
+		<h1>Login</h1>
+		<form action="login.php" method="POST">
+			<label for="email">Email:</label>
+			<input type="text" name="email" required>
+			<label for="password">Password:</label>
+			<input type="password" name="password" required>
+			<input type="submit" value="Login">
+            <?php if(isset($_GET['error'])) { ?>
+            	<p class="error"><?php echo $_GET['error']; ?></p>
+        	<?php } ?>
+		</form>
+		<p>Don't have an account? <a href="D:\Chat GPT\HTML\Login\Register\register.html">Register here</a></p>
+	</div>
+</body>
+</html>
